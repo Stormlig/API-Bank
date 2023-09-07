@@ -1,6 +1,6 @@
 # API-Bank
 
-A API do Cubos Bank é uma aplicação que simula operações bancárias básicas, permitindo que os usuários criem contas, realizem depósitos, saques, transferências, verifiquem saldos e obtenham extratos de suas transações. Esta API foi desenvolvida com o propósito de fornecer uma base para sistemas bancários mais complexos e também como um exemplo de aplicação com Node.js e Express.js.
+A API Bank é uma aplicação que simula operações bancárias básicas, permitindo que os usuários criem contas, realizem depósitos, saques, transferências, verifiquem saldos e obtenham extratos de suas transações. Esta API foi desenvolvida com o propósito de fornecer uma base para sistemas bancários mais complexos e também como um exemplo de aplicação com Node.js e Express.js.
 
 ## Funcionalidades
 
@@ -26,7 +26,7 @@ A API oferece as seguintes funcionalidades:
 
 ## Uso da API
 
-Para usar a API do Cubos Bank, você pode fazer requisições HTTP para as rotas especificadas acima usando um cliente HTTP, como o axios ou fetch em JavaScript. Certifique-se de que a API esteja rodando localmente ou em um servidor acessível.
+Para usar a API Bank, você pode fazer requisições HTTP para as rotas especificadas acima usando um cliente HTTP, como o axios ou fetch em JavaScript. Certifique-se de que a API esteja rodando localmente ou em um servidor acessível.
 
 ### Exemplo de Requisição
 
