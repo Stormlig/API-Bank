@@ -6,32 +6,51 @@ A API Bank é uma aplicação que simula operações bancárias básicas, permit
 
 A API oferece as seguintes funcionalidades:
 
-**Exibir Contas** (GET /contas): Retorna a lista de todas as contas cadastradas no sistema.
-
-**Criar Conta** (POST /contas): Permite a criação de novas contas com informações de usuário, como nome, CPF, data de nascimento, telefone, email e senha.
-
-**Atualizar Dados** do Usuário (PUT /contas/:numeroConta/usuario): Atualiza as informações do usuário associado a uma conta específica.
-
-**Excluir Conta** (DELETE /contas/:numeroConta): Remove uma conta se o saldo for zero.
-
-**Depositar** (POST /transacoes/depositar): Realiza um depósito em uma conta especificada.
-
-**Saque** (POST /transacoes/sacar): Realiza um saque em uma conta especificada, verificando a senha e o saldo suficiente.
-
-**Transferência** (POST /transacoes/transferir): Realiza uma transferência entre duas contas, verificando senha, saldo suficiente e que as contas sejam diferentes.
-
-**Saldo** do Usuário (GET /contas/saldo): Verifica o saldo de uma conta, requerendo o número da conta e senha.
-
-**Extrato** (GET /contas/extrato): Obtém o extrato de transações de uma conta, requerendo o número da conta e senha.
-
+**Exibir Contas**  
+```
+(GET /contas): Retorna a lista de todas as contas cadastradas no sistema.
+```
+**Criar Conta** 
+```
+(POST /contas): Cria novas contas com informações de usuário, como nome, CPF, data de nascimento, telefone, email e senha.
+```
+**Atualizar Dados** 
+```
+(PUT /contas/:numeroConta/usuario): Atualiza as informações do usuário associado a uma conta específica.
+```
+**Excluir Conta**  
+```
+(DELETE /contas/:numeroConta): Remove uma conta se o saldo for zero.
+```
+**Depositar**  
+```
+(POST /transacoes/depositar): Realiza um depósito em uma conta especificada.
+```
+**Saque**  
+```
+(POST /transacoes/sacar): Realiza um saque em uma conta especificada, verificando a senha e o saldo suficiente.
+```
+**Transferência**  
+```
+(POST /transacoes/transferir): Realiza uma transferência entre duas contas, verificando senha, saldo suficiente e que as contas sejam diferentes.
+```
+**Saldo**  
+```
+(GET /contas/saldo): Verifica o saldo de uma conta, requerendo o número da conta e senha.
+```
+**Extrato**  
+```
+(GET /contas/extrato): Obtém o extrato de transações de uma conta, requerendo o número da conta e senha.
+```
 ## Uso da API
 
 Para usar a API Bank, você pode fazer requisições HTTP para as rotas especificadas acima usando um cliente HTTP, como o axios ou fetch em JavaScript. Certifique-se de que a API esteja rodando localmente ou em um servidor acessível.
 
 ### Exemplo de Requisição
+![Criar Conta](https://github.com/Stormlig/API-Bank/assets/114263838/437c6929-2616-4539-ba43-43fbeecaaf9d)
+![Depositar](https://github.com/Stormlig/API-Bank/assets/114263838/0cfa7cb9-2589-48fc-9e51-85fb47733c49)
+![image](https://github.com/Stormlig/API-Bank/assets/114263838/a1155144-4925-4ce4-9bf7-88dffb8e2d60)  
 
-img
-img
 
 _Lembre-se de que a API atualmente armazena os dados em memória, o que significa que os dados serão perdidos quando o servidor for desligado. Você pode considerar persistir esses dados em um banco de dados real ou em um arquivo JSON para manter as informações após o reinício do servidor._
 
@@ -41,20 +60,31 @@ Certifique-se de ter Node.js instalado em sua máquina para executar esta aplica
 
 ## Instalação
 
-1. Clone o repositório:  
-    git clone https://github.com/seu-usuario/API-Bank.git 
-
-2. Acesse o diretório do projeto:  
+1. Clone o repositório:
+   ```
+      git clone</font> https://github.com/seu-usuario/API-Bank.git
+   ```
+3. Acesse o diretório do projeto:
+   ```  
       cd cubos-bank-api
-
-3. Instale as dependências:  
+    ```
+5. Instale as dependências:
+   ```
       npm install
+    ```
+7. Inicie o servidor:
+   ```
+      npm rum dev
+   ```
 
-4. Inicie o servidor:  
-      npm rum dev  
-   ou  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ou
+    
+    <br>
+
+    
+   ``` 
       yarn dev  
-
+    ```
 A API estará disponível em http://localhost:3000.
 
 ## Motivação
@@ -67,7 +97,7 @@ Esta API é uma simulação simplificada e pode ser usada como ponto de partida 
 
 ## Contribuições
 
-Se você está interessado em contribuir para este projeto, seja na melhoria do front end, alguma parte específica do back end ou qualquer outra área, você é mais que bem-vindo! A colaboração é fundamental para o crescimento e aprimoramento deste projeto.
+Se você está interessado em contribuir para este projeto, seja na criação do front end, alguma parte específica do back end ou qualquer outra área, você é mais que bem-vindo! A colaboração é fundamental para o crescimento e aprimoramento deste projeto.
 
 Para contribuir, siga estas etapas:
 
