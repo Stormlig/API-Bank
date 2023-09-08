@@ -41,19 +41,19 @@ Certifique-se de ter Node.js instalado em sua máquina para executar esta aplica
 
 ## Instalação
 
-1. Clone o repositório:
-   git clone https://github.com/seu-usuario/API-Bank.git
+1. Clone o repositório:  
+    git clone https://github.com/seu-usuario/API-Bank.git 
 
-2. Acesse o diretório do projeto:
-   cd cubos-bank-api
+2. Acesse o diretório do projeto:  
+      cd cubos-bank-api
 
-3. Instale as dependências:
-   npm install
+3. Instale as dependências:  
+      npm install
 
-4. Inicie o servidor:
-   npm rum dev
-   ou
-   yarn dev
+4. Inicie o servidor:  
+      npm rum dev  
+   ou  
+      yarn dev  
 
 A API estará disponível em http://localhost:3000.
 
